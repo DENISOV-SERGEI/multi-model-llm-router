@@ -105,12 +105,13 @@
 git clone https://github.com/USERNAME/multi-model-llm-router.git
 cd multi-model-llm-router
 ```
-2. Задать API-ключ
-Для Google Colab
+### 2. Задать API-ключ
+### Для Google Colab
+Добавьте переменную OPENAI_API_KEY в разделе **Secrets**.
 
-Добавьте переменную OPENAI_API_KEY в разделе Secrets.
-
-Для локального запуска
+### Для локального запуска
 ```bash
 export OPENAI_API_KEY="your_api_key_here"
+```
+
 
